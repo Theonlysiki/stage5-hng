@@ -7,7 +7,6 @@ declare global {
         fullName: string;
         userID: string;
         role: string;
-        // Add any other user-related fields here
       };
     }
   }

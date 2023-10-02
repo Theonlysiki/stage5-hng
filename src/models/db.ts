@@ -10,7 +10,7 @@ const main = async () => {
     const conn = await mongoose.connect(mongoUri);
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (err) {
-    console.log((err as Error).message); // Cast err to Error type
+    console.log((err as Error).message); 
     process.exit(1);
   }
 };

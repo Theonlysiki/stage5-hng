@@ -22,7 +22,7 @@ global.__basedir = __dirname;
 main()
   .then(() => {
     app.listen(PORT, (): void => {
-      console.log("SERVER IS UP ON PORT:", PORT);
+      console.log("SERVER IS ON PORT:", PORT);
     });
     console.log("DB connected");
   })
