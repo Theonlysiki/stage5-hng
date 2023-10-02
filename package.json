@@ -1,0 +1,49 @@
+{
+  "name": "hng-stage5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start:dev": "npx nodemon"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deepgram/sdk": "^2.4.0",
+    "@types/node": "^20.5.7",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "mongoose": "^7.4.5",
+    "node-cron": "^3.0.2",
+    "typescript": "^5.2.2",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/busboy": "^1.5.1",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/fluent-ffmpeg": "^2.1.22",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/multer": "^1.4.7",
+    "@types/node-cron": "^3.0.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
